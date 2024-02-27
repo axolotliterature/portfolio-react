@@ -19,7 +19,6 @@ export default function Projects() {
         <>
 
     <div>
-        {/* <button onClick={() => handleOpen("12345")}>Open Modal</button> */}
         <Modal open={isOpen} project={modProj} onClose={() => handleClose()}>
             <div className="text-gray-400 bg-gray-900 rounded-md body-font container px-5 py-8 mx-auto text-center lg:px-40">
                 <div className="flex relative w-full h-1/4">
@@ -54,7 +53,6 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            
         </Modal>
     </div>
 
@@ -76,40 +74,38 @@ export default function Projects() {
                 </p>
             </div>
 
-
+{/* is this div needed? */}
             <div>
-
-            <div className="flex flex-wrap -m-4">
-                {projectData.map((project) => (
-                    <a
-                        href={project.link}
-                        key={project.image}
-                        className="sm:w-1/2 w-100 p-4">
-                            <button onClick={() => handleOpen(project)}>
-                                <div className="flex relative w-50 h-60">
-                                    <img
-                                        alt="gallery"
-                                        className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                                        src={project.image}
-                                    />
-                                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 rounded-md bg-gray-900 opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">
-                                            {project.tools}
-                                        </h2>
-                                        <h1 className="title-font text-lg font-medium text-white mb-3">
-                                            {project.title}
-                                        </h1>
-                                        <p className="leading-relaxed">
-                                            {project.subtitle()}
-                                        </p>
+                <div className="flex flex-wrap m-4">
+                    {projectData.map((project) => (
+                        <a
+                            href={project.link}
+                            key={project.image}
+                            className="sm:w-1/2 w-100 p-4">
+                                <button onClick={() => handleOpen(project)}>
+                                    <div className="flex relative w-50 h-60">
+                                        <img
+                                            alt="gallery"
+                                            className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                                            src={project.image}
+                                        />
+                                        <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 rounded-md bg-gray-900 opacity-0 hover:opacity-100">
+                                            <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">
+                                                {project.tools}
+                                            </h2>
+                                            <h1 className="title-font text-lg font-medium text-white mb-3">
+                                                {project.title}
+                                            </h1>
+                                            <p className="leading-relaxed">
+                                                {project.subtitle()}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </button>
-                    </a>
-                ))}
+                                </button>
+                        </a>
+                    ))}
+                </div>
             </div>
-
-    </div>
         </div>
     </section>
 

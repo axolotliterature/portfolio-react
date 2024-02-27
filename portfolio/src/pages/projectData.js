@@ -12,6 +12,7 @@ import cloudgate from '../img/Cloud_Gate_Portal.jpg'
 import lizardlab from '../img/lizardlab.jpg'
 import goodestboy from '../img/thegoodestboysit.jpg'
 
+// NEED IMAGE ALTS
 
 export const projectData = [
     {
