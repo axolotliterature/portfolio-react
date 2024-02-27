@@ -12,8 +12,6 @@ import cloudgate from '../img/Cloud_Gate_Portal.jpg'
 import lizardlab from '../img/lizardlab.jpg'
 import goodestboy from '../img/thegoodestboysit.jpg'
 
-// import image from '../img/ahansenblog.png'
-
 
 export const projectData = [
     {

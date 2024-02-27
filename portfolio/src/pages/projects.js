@@ -1,21 +1,6 @@
 import React, { useState } from 'react';
 import Modal from "../Modal"
-import { projectData } from '../projects/projectData';
-
-// const ACTIONS = {
-//     GET_PROJECT: 'get-project'
-
-// }
-
-// function reducer(state, action) {
-//     switch (action.type) {
-//         case ACTIONS.GET_PROJECT:
-//             return null
-//         default:
-//             return null
-//     }
-// }
-
+import { projectData } from './projectData';
 
 export default function Projects() {
     const [isOpen, setIsOpen] = useState(false)
