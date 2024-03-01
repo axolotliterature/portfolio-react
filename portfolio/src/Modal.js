@@ -6,7 +6,7 @@ export default function Modal({ open, children, onClose }) {
 
     return ReactDom.createPortal(
         <>
-        <div className="overlayStyles"></div>
+        <div className="overlayStyles" onClick={onClose}></div>
             <div className="modal">
                 <button onClick={onClose}>x</button>
                 {children}

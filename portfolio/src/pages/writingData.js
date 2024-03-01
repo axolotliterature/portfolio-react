@@ -1,3 +1,6 @@
+import creativeCoding1 from '../img/writingimg/creativecoding2_resize_md.jpg'
+
+
 export const writingData = [
     {
         title: "Title One",
@@ -8,11 +11,11 @@ export const writingData = [
         content: "content for going inside the modal",
     },
     {
-        title: "",
-        subtitle: "",
-        date: "",
-        image: "",
-        imgalt: "",
+        title: "Creative Coding",
+        subtitle: "Poetic Interplay Between Computer Science and Artistic Expression",
+        date: "May 2022",
+        image: creativeCoding1,
+        imgalt: "Creative Coding Examples",
         content: "",
     },
 ]
