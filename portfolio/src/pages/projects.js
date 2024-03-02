@@ -34,7 +34,7 @@ export default function Projects() {
                         <h1 className="title-font text-lg font-medium text-white mb-1">
                             {modProj.title}
                         </h1>
-                        <p className="mb-2 pb-2 border-b-4 border-gray-800">
+                        <p className="mb-2 pb-2 border-b-4 rounded-md border-gray-800">
                             <a href={modProj.weblink} className="mr-2 text-cyan-600"
                                 rel="noreferrer noopener" target="_blank">
                                     Web Link

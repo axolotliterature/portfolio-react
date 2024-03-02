@@ -19,7 +19,28 @@ export default function Writing() {
     return (
         <>
         <div>
-            {/* Modal goes here */}
+            <Modal open={isOpen} project={modContent} onClose={() => handleClose()}>
+                <div className="text-gray-400 bg-gray-900 rounded-md body-font container px-5 py-8 mx-auto text-center lg:px-40">
+                    <div className="flex relative w-full h-1/4">
+                        <div className="px-2 py-5 relative z-10 w-full border-4 border-gray-800 rounded-md bg-gray-900">
+                        <img
+                            alt="gallery"
+                            className=" inset-0 w-full h-50 object-cover object-center rounded-md"
+                            src={modContent.image}
+                        />
+                            <h1 className="title-font text-lg font-medium text-white mb-1">
+                                {modContent.title}
+                            </h1>
+                            <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 my-1 mb-2 pb-2 border-b-4 rounded-md border-gray-800">
+                                {modContent.subtitle}
+                            </h2>
+                            <p className="leading-relaxed text-left">
+                                {modContent.content}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
         </div>
         
 {/* START OF INTRO HEADER BLURB */}
@@ -57,9 +78,9 @@ export default function Writing() {
                                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">
                                                     {content.subtitle}
                                                 </h2>
-                                                <p className="leading-relaxed">
+                                                {/* <p className="leading-relaxed">
                                                     {content.content}
-                                                </p>
+                                                </p> */}
                                             </div>
                                         </div>
                                     </button>
