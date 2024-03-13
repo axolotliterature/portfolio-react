@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,6 +18,16 @@ body {
 
 p {
   white-space: pre-line;
+}
+
+.nothing-font {
+  font-family: "Nothing You Could Do", cursive, Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.name-title {
+  font-size: 5em;
 }
 
 /* ------------------- MODAL */
