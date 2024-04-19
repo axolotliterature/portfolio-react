@@ -30,6 +30,12 @@ p {
   font-size: 5em;
 }
 
+.home-portrait {
+  width: 100%;
+  max-width: 22em;
+  border-radius: 20%;
+}
+
 /* ------------------- MODAL */
 
 .modal {
