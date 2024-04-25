@@ -2,13 +2,13 @@ import face from '../img/hansen-1-4x3.jpg'
 
 export default function Home() {
     return <>
-    <div className="w-full h-full border-2 grid text-center">
+    <div className="w-full h-full bg-gray-900 grid text-center">
         <h1 className="nothing-font name-title text-gray-300">Andrew Hansen</h1>
         <h2>Programmer</h2>
 
         <div id="about-container" className="grid grid-cols-2 w-10/12 text-center m-auto">
-            <div id="about-left" className="border-4 border-blue-300">
-                <h1 className="">Education</h1>
+            <div id="about-left" className="">
+                <h1 className="title-font text-lg font-medium text-white mb-1">Education</h1>
                 <p>B.A. in Digital Technology and Culture</p>
                 <p>Minor in English</p>
                 <p>Certification in Game Studies and Design</p>
@@ -29,7 +29,7 @@ export default function Home() {
                 <p>Github, Perforce Helix Core, Slack, Basecamp, Zoom, OBS Studio</p>
             </div>
 
-            <div id="about-right" className="border-4 border-red-300">
+            <div id="about-right" className="">
                 <img src={face} alt="placeholder" className="home-portrait m-auto shadow-md shadow-gray-500/70" />
 
             </div>
