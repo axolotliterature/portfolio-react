@@ -17,10 +17,10 @@ export default function Home() {
                 
                 <h1 className="title-font text-lg font-medium text-white mb-1 pt-4">Proficiencies</h1>
                 <h2 className="text-cyan-600 pt-3">Game Development and Design</h2>
-                <p>Unreal Engine, C++, Unity, C#, GameMaker, Phaser.js, p5.js, JavaScript</p>
+                <p>Unreal Engine, Unity, C#, GameMaker, Phaser.js, p5.js, JavaScript</p>
 
                 <h2 className="text-cyan-600 pt-3">Software and Web Development</h2>
-                <p className="">JavaScript, React.js, Node.js, C++, C#, .NET, C, Mapbox API, ArcGIS SDK, HTML5, CSS3</p>
+                <p className="">JavaScript, React.js, Node.js, C#, .NET, Mapbox API, HTML5, CSS3</p>
 
                 <h2 className="text-cyan-600 pt-3">Multimedia Creation</h2>
                 <p>Adobe: Illustrator, Photoshop, Lightroom, Premiere Pro, Blender, Davinci Resolve, Ableton Live</p>
