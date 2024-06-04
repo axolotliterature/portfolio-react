@@ -21,7 +21,7 @@ export const writingData = [
         image: creativeCoding1,
         imgalt: "Creative Coding Examples",
         content: <>
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Scratching the surface: A brief history of computing languages
             </h2>
             <br />
@@ -35,7 +35,7 @@ export const writingData = [
             <br />
             <img src={creativeCoding2} alt="Examples of Assembly Language" className="m-auto" />
             <br /><br />
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Humble Beginnings: The first computer animation
             </h2>
             <br />
@@ -49,7 +49,7 @@ export const writingData = [
             </p>
             </div>
             <br />
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Experimental Computing: Transforming text into generative art
             </h2>
             <br />
@@ -59,7 +59,7 @@ export const writingData = [
             <br />
             <img src={creativeCoding3} alt="Paul Brown Unassisted Drawing" className="m-auto" />
             <br />
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Bridging the Gap: Processing a Creative Medium
             </h2>
             <br />
@@ -71,7 +71,7 @@ export const writingData = [
             <br />
             <img src={creativeCoding4} alt="Example of Processing" className="m-auto"/>
             <br />
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Scripts.js: Transforming the Text of Programing Language Into Expressive Movements
             </h2>
             <br />
@@ -111,7 +111,7 @@ export const writingData = [
             </p>
             </div>
             <br /><br />
-            <h2 className="title-font text-base font-bold text-gray-300 text-center">
+            <h2 className="title-font font-bold text-gray-300 text-center">
                 Works Cited
             </h2>
             <br />

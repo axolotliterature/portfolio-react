@@ -7,8 +7,8 @@ export default function Home() {
         <h1 className="nothing-font name-title text-gray-300">Andrew Hansen</h1>
         <h2 className="text-cyan-600">Game Developer | Software Engineer | Web Developer</h2>
         <h2 className="text-gray-600">Looking for a junior developer/engineer role so that I can *karate chops the air* continue perfecting my craft.</h2>
-        <h2 className="text-gray-600">I have a twirly moustache now, it's pretty frickin neat.</h2>
-        <h2 className="text-gray-600 pb-3">Let's hop on a zoom call and marvel at my totally rad mustache and all of the other ways I'm probably an awesome fit for your team!</h2>
+        <h2 className="text-gray-600">I have a twirly moustache now, it's pretty neat.</h2>
+        <h2 className="text-gray-600 pb-3">Let's hop on a zoom call and marvel at my totally rad mustache and all of the ways I'm probably an awesome fit for your team!</h2>
 
         <div id="about-container">
             <div id="about-top" className="grid grid-cols-2 w-10/12 text-center mx-auto"> 
