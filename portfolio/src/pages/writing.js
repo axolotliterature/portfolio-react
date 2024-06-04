@@ -28,10 +28,10 @@ export default function Writing() {
                             className=" inset-0 w-full h-50 object-cover object-center rounded-md"
                             src={modContent.image}
                         />
-                            <h1 className="title-font text-lg font-medium text-white mb-1">
+                            <h1 className="title-font font-medium text-white mb-1">
                                 {modContent.title}
                             </h1>
-                            <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 my-1 mb-2 pb-2 border-b-4 rounded-md border-gray-800">
+                            <h2 className="tracking-widest title-font font-medium text-cyan-400 my-1 mb-2 pb-2 border-b-4 rounded-md border-gray-800">
                                 {modContent.subtitle}
                             </h2>
                             <p className="leading-relaxed text-left">
@@ -47,12 +47,12 @@ export default function Writing() {
         <section id="writings" className="text-gray-400 bg-gray-900 body-font">
             <div className="container px5 py-10 mx-auto text-center lg:px-40">
                 <div className=" flex flex-col w-full mb-20">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                    <h1 className="sm:text-4xl font-medium title-font mb-4 text-white">
                         My Writing
                     </h1>
-                    <p className="lg:w2/3 mx-auto leading-relaxed text-base">
+                    {/* <p className="lg:w2/3 mx-auto leading-relaxed">
                         Blurb on writing goes here
-                    </p>
+                    </p> */}
                 </div>
 
 {/* START OF CONTENT GALLERY FOR CARDS */}

@@ -28,10 +28,10 @@ export default function Projects() {
                         className=" inset-0 w-full h-50 object-cover object-center rounded-md"
                         src={modProj.image}
                     />
-                        <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 my-1">
+                        <h2 className="tracking-widest title-font font-medium text-cyan-400 my-1">
                             {modProj.tools}
                         </h2>
-                        <h1 className="title-font text-lg font-medium text-white mb-1">
+                        <h1 className="title-font font-medium text-white mb-1">
                             {modProj.title}
                         </h1>
                         <p className="mb-2 pb-2 border-b-4 rounded-md border-gray-800">
@@ -56,21 +56,16 @@ export default function Projects() {
         </Modal>
     </div>
 
-    {/* <div>
-        <button onClick={() => setIsOpen(true)}>Open Modal</button>
-        <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-            Modal content
-        </Modal>
-    </div> */}
-
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                     My Projects
                 </h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    As a programmer, although my focus is primarily in games and web development, I enjoy tinkering and programming in many different ways. Below is a non-exhaustive list of some of my projects. I enjoy learning new technologies and experimenting with various SDKs and APIs, such as my GIS MapBox project, my Skyrim dog follower mod, or my pokedex react app. Within some of my projects I also have various videos and art that I've created, such as my website detailing coffee's threat of extinction. I have also had the pleasure of working on teams with extraordinarily talented peers for some of my larger projects such as DATA ENTRY: PORTAL, a Sci-Fi Mystery VR game! Whether I'm setting out with a team or flying solo, my aim on every project is to challenge myself and learn something new. Thanks for checking out my projects list, don't forget to be awesome! 
+                <p className="mx-auto leading-relaxed">
+                    As a programmer, although my focus is primarily in games and web development, I enjoy tinkering and programming in many different ways. Below is a non-exhaustive list of some of my projects. I enjoy learning new technologies and experimenting with various SDKs and APIs, such as my GIS MapBox project, my Skyrim dog follower mod, or my Dice Roll simulator PDF reader. Within some of my projects I also have various videos and art that I've created, such as my website detailing coffee's threat of extinction. I have also had the pleasure of working on teams with extraordinarily talented peers for some of my larger projects such as DATA ENTRY: PORTAL, a Sci-Fi Mystery VR game! Whether I'm setting out with a team or flying solo, my aim on every project is to challenge myself and learn something new.
+                    </p> 
+                    <p>Thanks for checking out my projects, don't forget to be awesome! 
                 </p>
             </div>
 
