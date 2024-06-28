@@ -6,6 +6,7 @@
 @layer base {
   html {
     @apply bg-gray-900;
+    font-size: 18px;
   }
 
   * {
@@ -14,7 +15,7 @@
 
   body {
     margin: 0;
-    font-size: 1.6rem;
+    /* font-size: 18px; */
   }
 }
 
@@ -30,6 +31,23 @@ p {
   white-space: pre-line;
 }
 
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+/* ------------------ NAVIGATION */
+
+.nav {
+  font-size: 1.2rem;
+}
+
+
+/* ------------------ HOME PAGE */
+
 .nothing-font {
   font-family: "Nothing You Could Do", cursive, Verdana, Tahoma, sans-serif;
   font-weight: 400;
@@ -42,7 +60,7 @@ p {
 
 .home-portrait {
   width: 100%;
-  max-width: 22em;
+  max-width: 18em;
   border-radius: 20%;
 }
 
