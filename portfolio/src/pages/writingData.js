@@ -6,14 +6,14 @@ import creativeCoding5 from '../img/writingimg/1_pFJSPa5dEQa95kBSqxP0Bw.gif'
 
 
 export const writingData = [
-    {
-        title: "Title One",
-        subtitle: "Subtitle about project One",
-        date: "January 2024",
-        image: "",
-        imgalt: "",
-        content: "content for going inside the modal",
-    },
+    // {
+    //     title: "Title One",
+    //     subtitle: "Subtitle about project One",
+    //     date: "January 2024",
+    //     image: "",
+    //     imgalt: "",
+    //     content: "content for going inside the modal",
+    // },
     {
         title: "Creative Coding",
         subtitle: "Poetic Interplay Between Computer Science and Artistic Expression",

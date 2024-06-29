@@ -19,16 +19,16 @@ export default function Home() {
                     <p className="text-red-800">Washington State University Vancouver</p>
                     
                     <h1 className="title-font font-medium text-white mb-1 pt-4">Proficiencies</h1>
-                    <h2 className="text-cyan-600 pt-3">Game Development and Design</h2>
+                    <h3 className="text-cyan-600 pt-3">Game Development and Design</h3>
                     <p>Unreal Engine, Unity, C#, GameMaker, p5.js, JavaScript</p>
 
-                    <h2 className="text-cyan-600 pt-3">Software and Web Development</h2>
+                    <h3 className="text-cyan-600 pt-3">Software and Web Development</h3>
                     <p className="">JavaScript, React.js, Node.js, C#, .NET, HTML5, CSS3</p>
 
-                    <h2 className="text-cyan-600 pt-3">Multimedia Creation</h2>
+                    <h3 className="text-cyan-600 pt-3">Multimedia Creation</h3>
                     <p>Adobe: Illustrator, Photoshop, Lightroom, Premiere Pro, Blender, Davinci Resolve, Ableton Live</p>
 
-                    <h2 className="text-cyan-600 pt-3">Collaboration and Version Control</h2>
+                    <h3 className="text-cyan-600 pt-3">Collaboration and Version Control</h3>
                     <p>Github, Perforce Helix Core, Slack, Basecamp, Zoom, OBS Studio</p>
                 </div>
 
