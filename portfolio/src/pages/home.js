@@ -6,31 +6,29 @@ export default function Home() {
     <div className="w-full h-full bg-gray-900 grid text-center">
         <h1 className="nothing-font name-title text-gray-300">Andrew Hansen</h1>
         <h2 className="text-cyan-600">Game Developer | Software Engineer | Web Developer</h2>
-        <h2 className="text-gray-600">Looking for a junior developer/engineer role so that I can *karate chops the air* continue perfecting my craft.</h2>
-        <h2 className="text-gray-600">I have a twirly moustache now, it's pretty neat.</h2>
-        <h2 className="text-gray-600 pb-3">Let's hop on a zoom call and marvel at my totally rad mustache and all of the ways I'm probably an awesome fit for your team!</h2>
+        <p className="text-gray-600 pb-3">Looking for a junior developer/engineer role so that I can *karate chops the air* continue perfecting my craft.</p>
 
         <div id="about-container">
             <div id="about-top" className="grid grid-cols-2 w-10/12 text-center mx-auto"> 
                 <div id="about-left" className="">
-                    <h1 className="title-font text-lg font-medium text-white mb-1">Education</h1>
+                    <h1 className="title-font font-medium text-white mb-1">Education</h1>
                     <p className="text-cyan-600">B.A. in Digital Technology and Culture</p>
                     <p>The CMDC of the Department of Digital Technology and Culture</p>
                     <p>Minor in English</p>
                     <p>Certification in Game Studies and Design</p>
                     <p className="text-red-800">Washington State University Vancouver</p>
                     
-                    <h1 className="title-font text-lg font-medium text-white mb-1 pt-4">Proficiencies</h1>
-                    <h2 className="text-cyan-600 pt-3">Game Development and Design</h2>
+                    <h1 className="title-font font-medium text-white mb-1 pt-4">Proficiencies</h1>
+                    <h3 className="text-cyan-600 pt-3">Game Development and Design</h3>
                     <p>Unreal Engine, Unity, C#, GameMaker, p5.js, JavaScript</p>
 
-                    <h2 className="text-cyan-600 pt-3">Software and Web Development</h2>
+                    <h3 className="text-cyan-600 pt-3">Software and Web Development</h3>
                     <p className="">JavaScript, React.js, Node.js, C#, .NET, HTML5, CSS3</p>
 
-                    <h2 className="text-cyan-600 pt-3">Multimedia Creation</h2>
+                    <h3 className="text-cyan-600 pt-3">Multimedia Creation</h3>
                     <p>Adobe: Illustrator, Photoshop, Lightroom, Premiere Pro, Blender, Davinci Resolve, Ableton Live</p>
 
-                    <h2 className="text-cyan-600 pt-3">Collaboration and Version Control</h2>
+                    <h3 className="text-cyan-600 pt-3">Collaboration and Version Control</h3>
                     <p>Github, Perforce Helix Core, Slack, Basecamp, Zoom, OBS Studio</p>
                 </div>
 
