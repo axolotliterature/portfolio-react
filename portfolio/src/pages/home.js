@@ -1,10 +1,17 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from  '@fortawesome/free-brands-svg-icons'
+import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
+
+
 // import face from '../img/hansen-1-4x3.jpg'
 import resume from '../documents/andrew-hansen-resume.pdf'
 
-import emailIcon from '../img/icons/mail.png'
-import githubIcon from '../img/icons/github.png'
-import instagramIcon from '../img/icons/instagram.png'
-import linkedinIcon from '../img/icons/linkedin.png'
+// import emailIcon from '../img/icons/mail.png'
+// import githubIcon from '../img/icons/github.png'
+// import instagramIcon from '../img/icons/instagram.png'
+// import linkedinIcon from '../img/icons/linkedin.png'
 
 export default function Home() {
     return <>
@@ -13,10 +20,10 @@ export default function Home() {
             <h1 className="nothing-font name-title text-gray-300">Andrew Hansen</h1>
             <h3 className="text-cyan-400">Web Developer | Programmer | Game Developer</h3>
             <h3 className="py-2">
-                <a className="px-5" href="mailto:andrewhansen.dev@gmail.com"><img src={emailIcon} alt="Email Icon" className="contact-icon" /></a> 
-                <a className="px-5" href="https://github.com/axolotliterature" rel="noreferrer noopener" target="_blank"><img src={githubIcon} alt="Github Icon" className="contact-icon" /></a> 
-                <a className="px-5" href="https://www.linkedin.com/in/andrewhansen-dev/" rel="noreferrer noopener" target="_blank"><img src={linkedinIcon} alt="LinkedIn Icon" className="contact-icon" /></a>
-                <a className="px-5" href="https://www.instagram.com/td.grim/" rel="noreferrer noopener" target="_blank"><img src={instagramIcon} alt="Instagram Icon" className="contact-icon" /></a>
+                <a className="px-5" href="mailto:andrewhansen.dev@gmail.com"><FontAwesomeIcon icon={faSquareEnvelope} /></a> 
+                <a className="px-5" href="https://github.com/axolotliterature" rel="noreferrer noopener" target="_blank"><FontAwesomeIcon icon={faSquareGithub} /></a> 
+                <a className="px-5" href="https://www.linkedin.com/in/andrewhansen-dev/" rel="noreferrer noopener" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a className="px-5" href="https://www.instagram.com/td.grim/" rel="noreferrer noopener" target="_blank"><FontAwesomeIcon icon={faSquareInstagram} /></a>
             </h3>
         </div>
 
