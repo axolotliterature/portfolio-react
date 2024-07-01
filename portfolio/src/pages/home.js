@@ -3,15 +3,9 @@ import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from  '@fortawesome/free-brands-svg-icons'
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 
-
-// import face from '../img/hansen-1-4x3.jpg'
 import resume from '../documents/andrew-hansen-resume.pdf'
-
-// import emailIcon from '../img/icons/mail.png'
-// import githubIcon from '../img/icons/github.png'
-// import instagramIcon from '../img/icons/instagram.png'
-// import linkedinIcon from '../img/icons/linkedin.png'
 
 export default function Home() {
     return <>
@@ -34,13 +28,10 @@ export default function Home() {
                     {/* LEFT SIDE FOR INTRO AND CONTACT */}
 
                     {/* <h1 className="title-font font-medium text-white mb-1">Education</h1> */}
-                    <h3 className="text-white">B.A. Digital Technology and Culture</h3>
-                    <p>The CMDC of the Department of Digital Technology and Culture</p>
-                    <p>Minor in English</p>
-                    <p className="pb-5">Washington State University Vancouver</p>
+                    
+                    <p className="pb-5"> Aute non ipsum culpa laborum mollit sunt exercitation. Excepteur occaecat qui anim tempor laboris irure. Cupidatat esse ipsum dolor ad irure enim id ea quis qui elit exercitation proident. Sit ea eiusmod deserunt nostrud eu nulla cillum aute amet ipsum. Adipisicing labore minim sint Lorem ullamco ad magna reprehenderit. Velit commodo labore do non voluptate in ullamco laboris fugiat ut labore. Lorem ullamco fugiat magna minim laborum fugiat commodo duis reprehenderit dolor. </p>
 
-                    <h3 className="text-white">Certification in Game Studies and Design</h3>
-                    <p>Washington State University Vancouver</p>
+                    <p> Aute non ipsum culpa laborum mollit sunt exercitation. Excepteur occaecat qui anim tempor laboris irure. Cupidatat esse ipsum dolor ad irure enim id ea quis qui elit exercitation proident. Sit ea eiusmod deserunt nostrud eu nulla cillum aute amet ipsum. Adipisicing labore minim sint Lorem ullamco ad magna reprehenderit. Velit commodo labore do non voluptate in ullamco laboris fugiat ut labore. Lorem ullamco fugiat magna minim laborum fugiat commodo duis reprehenderit dolor. </p>
                     
                     {/* <h1 className="title-font font-medium text-white mb-1 pt-4">Proficiencies</h1>
                     <h3 className="text-cyan-600 pt-3">Game Development and Design</h3>
@@ -62,12 +53,16 @@ export default function Home() {
                     {/* RIGHT SIDE FOR EXPERIENCE BRIEF AND RESUME LINK */}
                     {/* as a lifelong tinkerer... former career mechanic,  */}
 
-                    <p className="pb-2"> Aute non ipsum culpa laborum mollit sunt exercitation. Excepteur occaecat qui anim tempor laboris irure. Cupidatat esse ipsum dolor ad irure enim id ea quis qui elit exercitation proident. Sit ea eiusmod deserunt nostrud eu nulla cillum aute amet ipsum. Adipisicing labore minim sint Lorem ullamco ad magna reprehenderit. Velit commodo labore do non voluptate in ullamco laboris fugiat ut labore. Lorem ullamco fugiat magna minim laborum fugiat commodo duis reprehenderit dolor. </p>
+                    <h3 className="text-white">B.A. Digital Technology and Culture</h3>
+                    <p>The CMDC of the Department of Digital Technology and Culture</p>
+                    <p>Minor in English</p>
+                    <p className="pb-5">Washington State University Vancouver</p>
 
-                    <p> Aute non ipsum culpa laborum mollit sunt exercitation. Excepteur occaecat qui anim tempor laboris irure. Cupidatat esse ipsum dolor ad irure enim id ea quis qui elit exercitation proident. Sit ea eiusmod deserunt nostrud eu nulla cillum aute amet ipsum. Adipisicing labore minim sint Lorem ullamco ad magna reprehenderit. Velit commodo labore do non voluptate in ullamco laboris fugiat ut labore. Lorem ullamco fugiat magna minim laborum fugiat commodo duis reprehenderit dolor. </p>
+                    <h3 className="text-white">Certification in Game Studies and Design</h3>
+                    <p className="pb-5">Washington State University Vancouver</p>
 
                     <div id="about-right-resume">
-                    <h3 className="p-1 text-cyan-400 text-center"><a href={resume} rel="noreferrer noopener" target="_blank">View my CV Resume</a></h3>
+                    <h3 className="pb-5 text-cyan-400 text-center"><a href={resume} rel="noreferrer noopener" target="_blank">View Full Resume</a><FontAwesomeIcon icon={faFileArrowDown} /></h3>
                         <div className="exp-block">
                             <div id="" className="exp-left">
                                 <p>2024-Present</p>

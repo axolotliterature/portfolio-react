@@ -72,7 +72,7 @@ h3 {
   display: inline-block;
 }
 
-.svg-inline--fa {
+#about-header .svg-inline--fa {
   height: 2.5em;
 }
 
@@ -84,6 +84,7 @@ h3 {
 
 #about-left {
   grid-column: span 1 / span 1;
+  margin-right: 15%;
 }
 
 #about-right {
