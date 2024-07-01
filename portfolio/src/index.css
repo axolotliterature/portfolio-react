@@ -89,6 +89,14 @@ h3 {
 
 #about-right {
   grid-column: span 1 / span 1;
+  max-height: 60vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#about-right::-webkit-scrollbar {
+  display: none;
 }
 
 .exp-block {
