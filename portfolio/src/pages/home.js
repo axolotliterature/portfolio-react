@@ -3,7 +3,8 @@ import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from  '@fortawesome/free-brands-svg-icons'
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 import resume from '../documents/andrew-hansen-resume.pdf'
 
@@ -12,7 +13,7 @@ export default function Home() {
     <div className="w-full h-full bg-gray-900 grid">
         <div id="about-header" className="text-center pb-8">
             <h1 className="nothing-font name-title text-gray-300">Andrew Hansen</h1>
-            <h3 className="text-cyan-400">Web Developer | Programmer | Game Developer</h3>
+            <h3 className="text-cyan-400 pb-1">Web Developer | Programmer | Game Developer</h3>
             <h3 className="py-2">
                 <a className="px-5" href="mailto:andrewhansen.dev@gmail.com"><FontAwesomeIcon icon={faSquareEnvelope} /></a> 
                 <a className="px-5" href="https://github.com/axolotliterature" rel="noreferrer noopener" target="_blank"><FontAwesomeIcon icon={faSquareGithub} /></a> 
@@ -62,7 +63,11 @@ export default function Home() {
                     <p className="pb-5">Washington State University Vancouver</p>
 
                     <div id="about-right-resume">
-                    <h3 className="pb-5 text-cyan-400 text-center"><a href={resume} rel="noreferrer noopener" target="_blank">View Full Resume</a><FontAwesomeIcon icon={faFileArrowDown} /></h3>
+                        <div id="scroll-down"><FontAwesomeIcon icon={faChevronDown} /></div>
+
+
+                    <h3 className="pb-5 text-cyan-400 text-center"><a className="pr-2" href={resume} rel="noreferrer noopener" target="_blank">View Full Resume</a><FontAwesomeIcon icon={faCloudArrowDown} /></h3>
+
                         <div className="exp-block">
                             <div id="" className="exp-left">
                                 <p>2024-Present</p>

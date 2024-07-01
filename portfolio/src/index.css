@@ -62,14 +62,15 @@ h3 {
   font-size: 5rem;
 }
 
-/* .home-portrait {
-  width: 100%;
-  max-width: 18em;
-  border-radius: 20%;
-} */
-
 .contact-icon {
   display: inline-block;
+}
+
+#about-header {
+  /* position: fixed;
+  top: 86.4px;
+  left: 50%;
+  transform: translate(-50%, 0%); */
 }
 
 #about-header .svg-inline--fa {
@@ -77,12 +78,20 @@ h3 {
 }
 
 #about-main {
+  /* position: fixed;
+  top: 366.7px;
+  left: 50%;
+  transform: translate(-50%, 0%); */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 60%;
 }
 
 #about-left {
+  /* position: fixed;
+  top: 366.7px;
+  left: 50%;
+  transform: translate(-50%, 0%); */
   grid-column: span 1 / span 1;
   margin-right: 15%;
 }
@@ -96,6 +105,13 @@ h3 {
 }
 
 #about-right::-webkit-scrollbar {
+  display: none;
+}
+
+/* Maybe integrate this later with JS to hide on scroll? */
+#scroll-down {
+  position: fixed;
+  top: 93%;
   display: none;
 }
 
