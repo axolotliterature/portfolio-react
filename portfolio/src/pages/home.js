@@ -69,30 +69,39 @@ export default function Home() {
                     <h3 className="pb-5 text-cyan-400 text-center"><a className="pr-2" href={resume} rel="noreferrer noopener" target="_blank">View Full Resume</a><FontAwesomeIcon icon={faCloudArrowDown} /></h3>
 
                         <div className="exp-block">
-                            <div id="" className="exp-left">
-                                <p>2024-Present</p>
+                            <div className="exp-left">
+                                <p className="text-gray-600">2024 - Present</p>
                             </div>
 
-                            <div id="" className="exp-right">
-                                <h3>Experience 1 Title - Company Name</h3>
-                                <p>Dolor officia ullamco enim qui qui amet cupidatat eu labore eu ut.</p>
-                                <p>Fugiat incididunt id incididunt sunt magna fugiat velit non do minim.</p>
-                                <p>Velit eiusmod cupidatat sint ipsum do ad nisi excepteur reprehenderit.</p>
+                            <div className="exp-right">
+                                <h3>CAD Programmer - D&D Home Interiors</h3>
+                                <p>Pushed to streamline internal communication channels via the introduction of new technologies and strategies. Assisted in the identication and reduction of pre-production bottlenecks. Create clean and concise process documentation. Evaluate, test, and debug programs to ensure performance and accuracy. Manage API integrations to maximize application efficiency. EOTM October 2023</p>
                             </div>
                         </div>
 
                         <div className="exp-block">
-                            <div id="" className="exp-left">
-                                <p>2023-2024</p>
+                            <div className="exp-left">
+                                <p className="text-gray-600">2023 - 2023</p>
                             </div>
 
-                            <div id="" className="exp-right">
-                                <h3>Experience 2 Title - Company Name</h3>
-                                <p>Dolor officia ullamco enim qui qui amet cupidatat eu labore eu ut.</p>
-                                <p>Fugiat incididunt id incididunt sunt magna fugiat velit non do minim.</p>
-                                <p>Velit eiusmod cupidatat sint ipsum do ad nisi excepteur reprehenderit.</p>
+                            <div className="exp-right">
+                                <h3>Gameplay Programmer - DATA ENTRY: PORTAL</h3>
+                                <p>Engaged heavily in the game design pre-production cycle, proactively prototyping new ideas and solutions which helped our team rocket from
+                                conceptualization to playable demo in only four months. Sequenced animations for puzzles, UI updates, and particle effects. Programmed scriptable object events for level transitions and puzzle interactions. Implemented player interactions and locomotion.</p>
                             </div>
                         </div>
+
+                        <div className="exp-block">
+                            <div className="exp-left">
+                                <p className="text-gray-600">2014 - 2020</p>
+                            </div>
+
+                            <div className="exp-right">
+                                <h3>Automotive Technician - Subaru of America Dealerships</h3>
+                                <p>ASE Certified Specialist for Engine, Transmission, Brake, and Electrical diagnostic and repair. Subaru of America Certified Boxer Engines Specialist, Transmissions Specialist. Collaboration with Subaru of America engineers for product quality monitoring. Read and interpret advanced schematics and wiring diagrams to efficiently reach diagnosis and accurately propose recommended repairs.</p>
+                            </div>
+                        </div>
+
                     </div>
                     
                 </div>

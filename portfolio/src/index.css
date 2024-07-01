@@ -66,15 +66,15 @@ h3 {
   display: inline-block;
 }
 
-#about-header {
-  /* position: fixed;
+/* #about-header {
+  position: fixed;
   top: 86.4px;
   left: 50%;
-  transform: translate(-50%, 0%); */
-}
+  transform: translate(-50%, 0%);
+} */
 
 #about-header .svg-inline--fa {
-  height: 2.5em;
+  height: 2.2em;
 }
 
 #about-main {
@@ -124,10 +124,13 @@ h3 {
 
 .exp-left {
   grid-column: span 1 / span 1;
+  padding-top: 7px;
+  font-size: 0.9rem;
 }
 
 .exp-right {
   grid-column: span 3 / span 3;
+  font-size: 0.9rem;
 }
 
 /* ------------------- MODAL */
