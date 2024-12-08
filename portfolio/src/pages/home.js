@@ -24,20 +24,20 @@ export default function Home() {
 
         <div id="about-container">
             <div id="about-main" className="grid grid-cols-2 w-10/12 mx-auto"> 
+
+                {/* LEFT SIDE FOR INTRO AND CONTACT */}
                 <div id="about-left" className="">
 
-                    {/* LEFT SIDE FOR INTRO AND CONTACT */}
-                    
-                    <p className="pb-5"> As a lifelong tinkerer, I've had an interest in computers and electronics since I was a child. From building custom PCs, to modifying game files, I've casually stoked a life-long interest in computers. Like many others, I had an introduction to HTML through customizing social media pages, an introduction to JavaScript by early web-based games, and an introduction to command line by bricking my parents' computer more than a few times before I got it right. Fortunately, we still had the boot CD. Sorry Mom. Despite focusing on Information Technology for my Associates Degree I remained somewhat casual in my approach to technology, instead being driven by a love of cars through a career as an automotive technician. When I felt the call to pursue a new profession that allowed for further personal growth, I found myself returning to school to complete my Bachelors in Digital Technology with a focus on Web and Game Development.</p>
+                    <p className="pb-5"> As a lifelong tinkerer, I've had an interest in computers and electronics since I was a child. From building custom PCs, to modifying game files, I've casually stoked a life-long interest in computers. Like many others, I had an introduction to HTML through customizing social media pages, an introduction to JavaScript by early web-based games, and an introduction to command line by bricking our family computer more than a few times before I got it right. Fortunately, we still had the boot CD. Sorry Mom. Despite focusing on Information Technology for my Associates Degree I remained somewhat casual in my approach to technology, instead being driven by a love of cars through a career as an automotive technician. When I felt the pull to pursue a new profession that allowed for deeper personal growth, I found myself returning to school to complete my Bachelors in Digital Technology with a focus on Web and Game Development.
+                    </p>
 
                     <p className="pb-5">After graduating from WSU in 2023 I took some time to focus on a few personal projects, taking some detours along the way to try out many different languages and frameworks to see what I liked best. Despite bouncing back and forth between C# and Python, I found myself continuously returning to JavaScript and its plethora of libraries and frameworks for the majority of my projects. I am excited to continue learning new skills and technologies, and exploring new ways of storytelling and expression through games and software. However, I am also eager to join a team that encourages personal growth and enables me to hone valuable professional skills, where I can put my curiosity and expertise to use contributing to a wider goal.
                     </p>
 
                 </div>
 
+                {/* RIGHT SIDE FOR EXPERIENCE BRIEF AND RESUME LINK */}
                 <div id="about-right" className="">
-
-                    {/* RIGHT SIDE FOR EXPERIENCE BRIEF AND RESUME LINK */}
 
                     <h3 className="text-white">B.A. Digital Technology and Culture</h3>
                     <p>The CMDC of the Department of Digital Technology and Culture</p>
@@ -84,6 +84,17 @@ export default function Home() {
                             <div className="exp-right">
                                 <h3 className="text-white">Automotive Technician - Subaru of America Dealerships</h3>
                                 <p>ASE Certified Specialist for Engine, Transmission, Brake, and Electrical diagnostic and repair. Subaru of America Certified Boxer Engines Specialist, Transmissions Specialist. Collaboration with Subaru of America engineers for product quality monitoring. Read and interpret advanced schematics and wiring diagrams to efficiently reach diagnosis and accurately propose recommended repairs.</p>
+                            </div>
+                        </div>
+
+                        <div className="exp-block">
+                            <div className="exp-left">
+                                <p className="text-gray-600">2011 - 2013</p>
+                            </div>
+
+                            <div className="exp-right">
+                                <h3 className="text-white">eLearning LMS Support - Whatcom Community College</h3>
+                                <p>Managed the eLearning Department's website front-end and content. Co-created and managed the Online Peer Mentoring Project to provide an online resource for students to provide and receive support for navigating the various tools and utilities for online learning. Designed and spearheaded tutorial sessions and help desk hours to assist college staff in creating and maintaining online courses and improving the utilization of various Learning Management Systems (LMS).</p>
                             </div>
                         </div>
                     </div>
